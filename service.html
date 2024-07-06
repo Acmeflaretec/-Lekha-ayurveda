@@ -1,372 +1,668 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <!-- Basic -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
+    <meta charset="utf-8">
+    <title>SPA Center - Beauty & Spa HTML Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
 
-  <title>Lekha ayurveda</title>
-  <link rel="icon" href="images/logo.png" type="image/x-icon">
-  <!-- slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
 
-  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-  <!-- fonts style -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
-  <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body class="sub_page">
-
-  <div class="hero_area">
-    <!-- header section strats -->
-    <header class="header_section">
-      <div class="container">
-        <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html">
-            <img src="images/logo.png" alt="">
-            <span>
-              Lekha ayurveda
-            </span>
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="s-1"> </span>
-            <span class="s-2"> </span>
-            <span class="s-3"> </span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
-              <ul class="navbar-nav  ">
-                <li class="nav-item ">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html"> About</a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="service.html"> Treatments</a>
-                </li>
-           
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact </a>
-                </li>
-              </ul>
+<body>
+    <!-- Topbar Start -->
+    <div  class="container-fluid  bg-light  d-lg-block">
+        <div class="row py-2 px-lg-5">
+            <div class="col-lg-6 text-left mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center">
+                    <small><i class="fa fa-phone-alt mr-2"></i>+91 87145 45498</small>
+                    <small class="px-3">|</small>
+                    <small><i class="fa fa-envelope mr-2"></i>lekhaayurveda@gmail.com</small>
+            </div>     <!-- &nbsp;&nbsp;
+                <div class="d-inline-flex align-items-center">
+                    <a class="text-primary px-2" href="https://www.facebook.com/profile.php?id=100087983348540&sk=about" target="_blank" >
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+               
+                
+                    <a class="text-primary px-2" href="https://www.instagram.com/lekhaayurveda/" target="_blank" >
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                 
+                </div> -->
             </div>
-          </div>
+         
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5">
+            <a href="index.html" class="navbar-brand ml-lg-3">
+                <h3 class="m-0 text-primary"> <img style="width: 80px; height: 60px;" src="img/logo.png" alt=""> Lekha Ayurveda</h3>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
+                <div class="navbar-nav m-auto py-0">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="service.html" class="nav-item nav-link active">Treatments</a>
+                 
+             
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <a href="https://wa.link/45c2ie" class="btn btn-primary d-none d-lg-block"> <img src="img/whatsapp.png" width="20px" height="20px" alt=""> Chat now </a>
+            </div>
         </nav>
-      </div>
-    </header>
-    <!-- end header section -->
-  </div>
-
-
-  <!-- service section -->
-  <section class="service_section layout_padding">
-    <div class="container">
-      <div class="heading_container">
-        <h2>
-          Our Treatments
-        </h2>
-        <img src="images/traditional-therapy.png" alt="">
-      </div>
-
-      <div class="service_container">
-        <div class="box">
-          <div class="img-box">
-            <img src="images/PIZHICHIL.png" class="img1" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>
-              PIZHICHIL
-            </h5>
-            <p>
-               It is a mixture of oleation and sudation.Lukewarm herbal oils are applied all over the body by trained therapists in a special rhythmic way continously for about 60-90minutes/day for a period of 7-21 days. It is effective in arthritis, paralysis, rheumatic disease, and rejunivates the body completely
-            </p>
-          </div>
-        </div>
-        <div class="box ">
-          <div class="img-box">
-            <img src="images/NJAVARA KIZHI.png" class="img1" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>
-              NJAVARA KIZHI
-            </h5>
-            <p>
-               A form of massage used inayurveda to tone and strengthen the muscles and enhance nerve conductivity. A generous amount of medicated oil is applied all over the head and body. Then the body is massaged with warm muslin bag boluses, containing njavara rice pudding cooked in a herbal decoction. The boluses are dipped in the mixture of warm milk or herbal decoction. It is useful in various muscular, neurological and vertebral diseases.
-            </p>
-          </div>
-        </div>
-        <div class="box">
-          <div class="img-box">
-            <img src="images/yoga.png" class="img1" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>
-              YOGA
-            </h5>
-            <p>
-              Yoga is an art form which helps in attaining good health and for living a holistic life. Yoga deals with the purification of mind and consciousness
-            </p>
-          </div>
-        </div>
-        <div class="box ">
-          <div class="img-box">
-            <img src="images/ELAKIZHI.png" class="img1" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>
-              ELAKIZHI
-            </h5>
-            <p>
-               Rare and valued herbs cooked in a medicated oil and packed in cotton bags are applied all over the body along with gentle massage. This treatment lubricates the joints, relieves body pain and reopens the channel of circulation.
-            </p>
-          </div>
-        </div>
-        <div class="box">
-          <div class="img-box">
-            <img src="images/SHIRODHARA.png" class="img1" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>
-              SHIRODHARA
-            </h5>
-            <p>
-              In this process, some herbal oils and/or buttermilk is poured on the forehead in a specific method. This treatment is mainly for sleeplessness, migraine, relieving mental tension and certain skin diseases.
-            </p>
-          </div>
-        </div>
-        <div class="box ">
-          <div class="img-box">
-            <img src="images/Abhyagam.png" class="img1" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>
-              Abhyagam <span style="font-size: 15px;">(Relaxation massage)</span>
-            </h5>
-            <p>
-              In this massage medicated oil is applied all over the body to increase blood circulation and relax the mind. It also helps in delaying aging, improves vitality and sleep.
-            </p>
-          </div>
-        </div>
-        <div class="box ">
-          <div class="img-box">
-            <img src="images/Nasyam.png" class="img1" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>
-              Nasyam
-            </h5>
-            <p>
-              Medicated oil or juice is applied through nose for 7 to 40 days. This treatment is highly effective in headache, paralysis, mental disorders and skin diseases.
-            </p>
-          </div>
-        </div>
-        <div class="box ">
-          <div class="img-box">
-            <img src="images/Tharpanam.png" class="img1" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>
-              Tharpanam
-            </h5>
-            <p>
-               In ayurveda, tharpanam or tharpan means retention of medicines over the eyes for up to 30 minutes or more daily as a treatment for problems related to the eye.
-            </p>
-          </div>
-        </div>
-        <div class="box ">
-          <div class="img-box">
-            <img src="images/Post Natal Care.png" class="img1" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>
-              Post Natal Care
-            </h5>
-            <p>
-               By ayurvedic treatment we can strengthen the muscle and ligaments, and ensure good quality and quantity of milk. We provide care for both the mother and the newborn baby.
-            </p>
-          </div>
-        </div>
-        <div class="box ">
-          <div class="img-box">
-            <img src="images/Udwarthanam.png" class="img1" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>
-              Udwarthanam
-            </h5>
-            <p>
-              Udwarthanam is a popular ayurvedic deep tissue massage and ayurvedic weight loss therapy using special herbal powders. It is a refreshing and rejuvenating massage for the whole body. Weight loss and cellulite reduction loss are the main aims of this treatment.
-            </p>
-          </div>
-        </div>
-        <div class="box ">
-          <div class="img-box">
-            <img src="images/Foot Therapy.png" class="img1" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>
-              Foot Therapy
-            </h5>
-            <p>
-               is a powerful full body massage which has an impact on all tissues within the body. The therapist performs the massage with their feet, reaching the deepest layers of the body. The session concludes with a hand massage of the head and face. The treatment is based on the Marma and Nadi System (system of energy points and pathways). It benefits the flexibility of the body, relaxes the muscles, removes body waste and blockages, supplies the cells with Prana (life energy) and balances the Doshas.  
-            </p>
-          </div>
-        </div>
-       
-        <div class="box ">
-          <div class="img-box">
-            <img src="images/Raktamoksha.png" class="img1" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>
-              Raktamoksha <span style="font-size: 15px;">(Therapeutic blood letting)</span>
-            </h5>
-            <p>
-               A form of therapeutic blood letting, it means removing impure blood from the body. It is a localized treatment, where not more than 10-40ml blood is drawn at a time. It is helpful for skin disease, herpes, jaundice, ulcer, gout, piles, abscess, leucoderma, eczema, deep venous thrombosis, and similar other diseases.
-            </p>
-          </div>
-        </div>
-        <div class="box ">
-          <div class="img-box">
-            <img src="images/Agnikarma.png" class="img1" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>
-              Agnikarma 
-            </h5>
-            <p>
-            Also known as the dahana karma, it is a process used in ayurveda for various benign disease that are characterized by pain or bleeding. This treatment is mainly used in skin tags, tennis elbow, calcaneus spur, corns, warts, and alopecia etc.
-            </p>
-          </div>
-        </div>
-        <div class="box ">
-          <div class="img-box">
-            <img src="images/Skin and hair care.png" class="img1" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>
-              Skin and hair care
-            </h5>
-            <p>
-               We provide beauty care treatments for unisex which includes facial, packs, hair masks and herbal formulations. Some of these remedies greatly help in the treatment of skin issues like acne, eczema, dryness, redness, dandruff, and hairloss etc.
-            </p>
-          </div>
-        </div>
-        <div class="box ">
-          <div class="img-box">
-            <img src="images/Marma chikitsa.png" class="img1" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>
-              Marma chikitsa
-            </h5>
-            <p>
-              Marma chikitsa is one among the most powerful treatments in ayurveda providing an overall healing experience. Marma therapy directs the mind energy to the diseased part by strengthening the bridge between the mind's and the body.
-            </p>
-          </div>
-        </div>
-
-      </div>
-
     </div>
-  </section>
-  <!-- end service section -->
+    <!-- Navbar End -->
 
-  <a href="https://wa.me/+918714545498" class="whatsapp-button" target="_blank">
-    <img src="images/whatsapp.png" alt="WhatsApp">
-</a>
-  <!-- info section -->
 
-  <section class="info_section layout_padding">
-    <div class="container">
-      <div class="info_contact">
-        <div class="row">
-          <div class="col-md-4">
-            <a href="https://maps.app.goo.gl/SG89kiF2a76HKLk47">
-              <img src="images/location-white.png" alt="">
-              <span>
-                Lekha Ayurveda clinic and Pharmacy
-              </span>
-            </a>
-          </div>
-          <div class="col-md-4">
-            <a href="tel:8714545498">
-              <img src="images/telephone-white.png" alt="">
-              <span>
-                Call : 8714545498
-              </span>
-            </a>
-          </div>
-          <div class="col-md-4">
-            <a href="mailto:lekhaayurveda@gmail.com">
-              <img src="images/envelope-white.png" alt="">
-              <span>
-             lekhaayurveda@gmail.com
-              </span>
-            </a>
-          </div>
+    <!-- Header Start -->
+    <div class="jumbotron jumbotron-fluid bg-jumbotron" style="margin-bottom: 90px;">
+        <div class="container text-center py-5">
+            <h3 class="text-white display-3 mb-4">Treatments</h3>
+         
         </div>
-      </div>
-      <div class="row">
-        
-        <div class="col-md-4 col-lg-3">
-          <div class="info_social">
-            <div>
-              <a href="https://www.facebook.com/profile.php?id=100087983348540&mibextid=qi2Omg&rdid=GpC3QRB5dfmdrc8P&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FhmrwBcAo4LsZnmeg%2F%3Fmibextid%3Dqi2Omg"target="_blank">
-                <img src="images/fb.png" alt="">
-              </a>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Service Start -->
+     <div class="container-fluid px-0 py-5 my-5">
+        <div class="row mx-0 justify-content-center text-center">
+            <div class="col-lg-6">
+                <h6 class="d-inline-block bg-light text-primary text-uppercase py-1 px-2">Our Treatments</h6>
+             
             </div>
-          
+        </div> 
+       <!--  <div class="owl-carousel service-carousel">
+            <div class="service-item position-relative">
+                <img class="img-fluid" src="img/service-1.jpg" alt="">
+                <div class="service-text text-center">
+                    <h4 class="text-white font-weight-medium px-3">Body Massage</h4>
+                    <p class="text-white px-3 mb-3">Elitr labore sit dolor erat est lorem diam sea ipsum diam dolor duo sit ipsum</p>
+                    <div class="w-100 bg-white text-center p-4" >
+                        <a class="btn btn-primary" href="">Make Order</a>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item position-relative">
+                <img class="img-fluid" src="img/service-2.jpg" alt="">
+                <div class="service-text text-center">
+                    <h4 class="text-white font-weight-medium px-3">Stone Therapy</h4>
+                    <p class="text-white px-3 mb-3">Elitr labore sit dolor erat est lorem diam sea ipsum diam dolor duo sit ipsum</p>
+                    <div class="w-100 bg-white text-center p-4" >
+                        <a class="btn btn-primary" href="">Make Order</a>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item position-relative">
+                <img class="img-fluid" src="img/service-3.jpg" alt="">
+                <div class="service-text text-center">
+                    <h4 class="text-white font-weight-medium px-3">Facial Therapy</h4>
+                    <p class="text-white px-3 mb-3">Elitr labore sit dolor erat est lorem diam sea ipsum diam dolor duo sit ipsum</p>
+                    <div class="w-100 bg-white text-center p-4" >
+                        <a class="btn btn-primary" href="">Make Order</a>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item position-relative">
+                <img class="img-fluid" src="img/service-4.jpg" alt="">
+                <div class="service-text text-center">
+                    <h4 class="text-white font-weight-medium px-3">Skin Care</h4>
+                    <p class="text-white px-3 mb-3">Elitr labore sit dolor erat est lorem diam sea ipsum diam dolor duo sit ipsum</p>
+                    <div class="w-100 bg-white text-center p-4" >
+                        <a class="btn btn-primary" href="">Make Order</a>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item position-relative">
+                <img class="img-fluid" src="img/service-5.jpg" alt="">
+                <div class="service-text text-center">
+                    <h4 class="text-white font-weight-medium px-3">Stream Bath</h4>
+                    <p class="text-white px-3 mb-3">Elitr labore sit dolor erat est lorem diam sea ipsum diam dolor duo sit ipsum</p>
+                    <div class="w-100 bg-white text-center p-4" >
+                        <a class="btn btn-primary" href="">Make Order</a>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item position-relative">
+                <img class="img-fluid" src="img/service-6.jpg" alt="">
+                <div class="service-text text-center">
+                    <h4 class="text-white font-weight-medium px-3">Face Masking</h4>
+                    <p class="text-white px-3 mb-3">Elitr labore sit dolor erat est lorem diam sea ipsum diam dolor duo sit ipsum</p>
+                    <div class="w-100 bg-white text-center p-4" >
+                        <a class="btn btn-primary" href="">Make Order</a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div> -->
+     <br><br>
+    <section class="fruit_section layout_padding-top">
+        <div class="container">
+         
+          <div class="row layout_padding2">
+            <div class="col-md-8">
+              <div class="fruit_detail-box">
+                <h3>
+                    Panchakarma
+                </h3>
+                <p class="mt-4 mb-5">
+                    It's a profound Ayurvedic detoxification and rejuvenation program that nourishes body, mind, and spirit. The term "Panchakarma" translates to "five actions" or "five treatments" in Sanskrit.
+                    <ul>
+                        <li>Vamana (therapeutic vomiting)</li>
+                        <li>Virechana (purging)</li>
+                        <li>Basti (medicated enema)</li>
+                        <li>Nasya (nasal cleansing)</li>
+                        <li>Shiravedanam</li>
+                    </ul>
+                </p>
+           
+                <div>
+             
+                </div>
+              </div>
+            </div> 
             
-            <div>
-              <a href="https://www.instagram.com/lekhaayurveda?igsh=MXZsaHk2dTRkZjd3Zg%3D%3D "target="_blank">
-                <img src="images/instagram.png" alt="">
-              </a>
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+              <div class="fruit_img-box d-flex justify-content-center align-items-center">
+                <img src="img/Panchakarma.jpg" alt="" class="img-service" />
+              </div>
             </div>
           </div>
+          <br><br>
+          <div class="row layout_padding2">
+            <div class="col-md-8">
+              <div class="fruit_detail-box">
+                <h3>
+                    Post natal care
+                </h3>
+                <p class="mt-4 mb-5">
+                    postnatal care is known as "Sutika Parishrama" and is considered crucial for a new mother's recovery and well-being. Here in lekha we focus with proper diet, Rest, Massages, Medication, Yoga , Emotional wellbeing
+                    Our care aims to rejuvenate the mother's body, mind, and spirit, promoting a smooth transition to motherhood
+
+                </p>
+                <div>
+               
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+              <div class="fruit_img-box d-flex justify-content-center ">
+                <img src="img/postnatalcare.webp" alt="" class="img-service" />
+              </div>
+            </div>
+          </div>
+          <br><br>
+          <div class="row layout_padding2-top layout_padding-bottom">
+            <div class="col-md-8">
+              <div class="fruit_detail-box">
+                <h3>
+                    Marma Chikitsa
+                </h3>
+                <p class="mt-4 mb-5">
+                    focuses on the manipulation of vital points, known as Marma points, to restore balance and well-being. These points are located at the intersections of muscles, bones, and veins, and are believed to govern various physiological and psychological functions.
+                  
+                  <ul>
+                    Benifits:
+                    <li>Relief from pain and inflammation</li>
+                    <li>Improved circulation and flexibility</li>
+                    <li>Enhanced energy and vitality</li>
+                    <li>Reduced stress and anxiety</li>
+                    <li>Improved sleep quality</li>
+                </ul>
+                By stimulating Marma points, we aim to restore balance to the body's energy, promoting overall health and well-being.
+                </p>
+                <div>
+              
+                </div>
+              </div>
+            </div>     
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+              <div class="fruit_img-box d-flex justify-content-center align-items-center">
+                <img src="img/Marma.png" alt="" class="img-service"  />
+              </div>
+            </div>
+          </div> 
+        <br><br>
+          <div class="row layout_padding2-top layout_padding-bottom">
+            <div class="col-md-8">
+              <div class="fruit_detail-box">
+                <h3>
+                    Orthopedic rehabilitation
+                </h3>
+                <p class="mt-4 mb-5">
+                    We combines traditional Ayurvedic therapies like Abhyanga, Swedana, and Vasti with modern physiotherapy techniques to treat musculoskeletal disorders. This holistic approach aims to rejuvenate and strengthen the body, promoting natural healing and restoring functional ability, while also addressing the underlying doshic imbalance.
+                  <br>
+    
+                </p>
+                <div>
+              
+                </div>
+              </div>
+            </div>      
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+              <div class="fruit_img-box d-flex justify-content-center align-items-center">
+                <img src="img/ortho.jpg" alt="" class="img-service"  />
+              </div>
+            </div>
+          </div>
+           <br><br>
+
+           <div class="row layout_padding2-top layout_padding-bottom">
+            <div class="col-md-8">
+              <div class="fruit_detail-box">
+                <h3>
+                    Chronic dosords
+                </h3>
+                <p class="mt-4 mb-5">
+                    chronic disorders like arthritis, joint degeneration are treated through a holistic approach that aims to balance the doshas and restore overall health. <br><br>
+
+                    Through Panchakarma detoxification and rejuvenation therapies,Ayurvedic medications like Ashwagandha, Turmeric, and Ginger. Dietary modifications, such as avoiding inflammatory foods. Lifestyle changes, like regular exercise and stress management. Yoga and meditation to reduce stress and promote relaxation                  
+    
+                </p>
+                <div>
+              
+                </div>
+              </div>
+            </div>      
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+              <div class="fruit_img-box d-flex justify-content-center align-items-center">
+                <img src="img/Chronic dosords.jpg" alt="" class="img-service"  />
+              </div>
+            </div>
+          </div>
+           <br><br>
+           <div class="row layout_padding2-top layout_padding-bottom">
+            <div class="col-md-8">
+              <div class="fruit_detail-box">
+                <h3>
+                    Weight loss management 
+
+                </h3>
+                <p class="mt-4 mb-5">
+                    We offers a comprehensive approach to weight loss management, focusing on aligning your life with what your body needs. Here are some Ayurvedic weight management practices 
+                    <ul>
+                        <li> <strong> Understanding your Dosha:</strong> Recognizing your main flaws, whether vata, bile, or phlegm, is the key to successful weight loss, as each deficiency responds differently to diet, routine, and exercise.</li>
+                        <li><strong>Digestion:</strong> We help you in your diet and keep your digestive system working by eating at regular times, focusing on foods that are easy to digest and adding stimulating spices like ginger, cumin, and black pepper.</li>
+                        <li><strong>Detoxification and Cleansing:</strong> Detoxification and cleansing are necessary actions to improve overall health and initiate weight loss through a process called “panchakarma”.</li>
+                        <li><strong>Yoga and Exercise:</strong> Yoga and exercise are major pillars in Ayurvedic weight management, as they help improve digestion and reduce stress, making weight loss a natural process.</li>
+                    </ul>
+    
+                </p>
+                <div>
+              
+                </div>
+              </div>
+            </div>      
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+              <div class="fruit_img-box d-flex justify-content-center align-items-center">
+                <img src="img/weightloss.jpg" alt="" class="img-service"  />
+              </div>
+            </div>
+          </div>
+           <br><br>
+           <div class="row layout_padding2-top layout_padding-bottom">
+            <div class="col-md-8">
+              <div class="fruit_detail-box">
+                <h3>
+                    Ayurvedic facial and hair care programe
+                </h3>
+                <p class="mt-4 mb-5">
+                    Here at lekha ayurveda we introduce our bespoke skin and hair care range, crafted with love and care using only the finest organic ingredients. Each product is custom-made to meet the unique needs of every individual, ensuring a personalized approach to beauty and wellness. Our expert blend of ancient wisdom and modern science creates truly effective, chemical-free formulas that nourish and rejuvenate your skin and hair. Experience the power of nature, tailored just for you.                
+    
+                </p>
+                <div>
+              
+                </div>
+              </div>
+            </div>      
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+              <div class="fruit_img-box d-flex justify-content-center align-items-center">
+                <img src="img/skin and hair.jpg" alt="" class="img-service"  />
+              </div>
+            </div>
+          </div>
+           <br><br>
+           <div class="row layout_padding2-top layout_padding-bottom">
+            <div class="col-md-8">
+              <div class="fruit_detail-box">
+                <h3>
+                    Yoga
+                </h3>
+                <p class="mt-4 mb-5">
+                    Yoga is a holistic practice that unites body, mind, and spirit. It combines physical postures (asanas), breathing techniques (pranayama), and meditation to promote physical flexibility, mental clarity, and emotional balance. Regular yoga practice can reduce stress, improve overall health, and increase self-awareness, leading to a more harmonious and fulfilling life.                  <br>
+    
+                </p>
+                <div>
+              
+                </div>
+              </div>
+            </div>      
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+              <div class="fruit_img-box d-flex justify-content-center align-items-center">
+                <img src="img/Yoga.avif" alt="" class="img-service"  />
+              </div>
+            </div>
+          </div>
+           <br><br>
+           <div class="row layout_padding2-top layout_padding-bottom">
+            <div class="col-md-8">
+              <div class="fruit_detail-box">
+                <h3>
+                    Geriatric rehabilitatin
+                </h3>
+                <p class="mt-4 mb-5">
+                    we aims to restore functional ability and improve quality of life. Treatment includes:
+                    <ul>
+                 <li>    Panchakarma therapies like Abhyanga, Swedana, and Vasti to rejuvenate and strengthen the body</li>
+             
+    
+                   <li>  Customized diet and lifestyle plans to balance doshas and promote healing</li>
+                   <li>  Herbal supplements like Ashwagandha and Brahmi to enhance cognitive function and memory</li>
+                   <li>  Yoga and physical therapy to improve mobility and strength</li>
+                   <li>  Speech and language therapy to enhance communication skills</li>
+                </ul>
+                This holistic approach helps individuals recover from stroke-related impairments and regain independence.
+                </p>
+                <div>
+              
+                </div>
+              </div>
+            </div>      
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+              <div class="fruit_img-box d-flex justify-content-center align-items-center">
+                <img src="img/Geriatric rehabilitatin.jpeg" alt="" class="img-service"  />
+              </div>
+            </div>
+          </div>
+           <br><br>
+           <div class="row layout_padding2-top layout_padding-bottom">
+            <div class="col-md-8">
+              <div class="fruit_detail-box">
+                <h3>
+                    Foot therapy ( chavittithirumal)
+
+                </h3>
+                <p class="mt-4 mb-5">
+                    Is a powerful full body massage which has an impact on all tissues within the body. The Therapist performs the massage with their feet, reaching the deepest layers of the body.The session concludes with a hand massage of the head and face. The treatment is based on the Marma and nadi system ( system of energy points and Pathways). It benefits the flexibility of the body, relaxes the muscles, removes body waste and blockages, supplies the cells with Prana ( life energy)and balances the Doshas.    
+                </p>
+                <div>
+              
+                </div>
+              </div>
+            </div>      
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+              <div class="fruit_img-box d-flex justify-content-center align-items-center">
+                <img src="img/foot.jpeg" alt="" class="img-service"  />
+              </div>
+            </div>
+          </div>
+           <br><br>
+           <div class="row layout_padding2-top layout_padding-bottom">
+            <div class="col-md-8">
+              <div class="fruit_detail-box">
+                <h3>
+                    Stress management 
+
+                </h3>
+                <p class="mt-4 mb-5">
+                    We help you in Identifying your Dosha: Vata, Pitta, or Kapha, and understand its qualities and how it reacts to stress
+                    <h6>Vitiated Vata (Vata Imbalance)</h6>
+                    <ul>
+                        <li>Balancing Vata qualities by increasing warmth and stillness</li>
+                        <li>Meditative time each day</li>
+                        <li>Healthy meals at regular times</li>
+                        <li>Stress relief massage with warm oil</li>
+                        <li>Following a healthy sleep routine</li>
+                    </ul>
+                
+                    <h6>Vitiated Pitta (Pitta Imbalance)</h6>
+                    <ul>
+                        <li>Balancing Pitta with calm, coolness, and moderation</li>
+                        <li>Meditation, Yoga, or Pranayama</li>
+                        <li>Cool showers</li>
+                        <li>Avoid spicy foods</li>
+                        <li>Regular nature walks</li>
+                    </ul>
+                
+                    <h6>Vitiated Kapha (Kapha Imbalance)</h6>
+                    <ul>
+                        <li>Staying active</li>
+                        <li>Warming the body</li>
+                        <li>Kapalabhati Pranayama (Shining Skull Breath) and other yoga asanas</li>
+                        <li>Warming soups and vegetable stews</li>
+                        <li>Avoid comfort foods</li>
+                    </ul>
+                    Treatments like Takradhara, shirodhara helps in the management of stress    
+    
+                </p>
+                <div>
+              
+                </div>
+              </div>
+            </div>      
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+              <div class="fruit_img-box d-flex justify-content-center align-items-center">
+                <img src="img/stress.jpg" alt="" class="img-service"  />
+              </div>
+            </div>
+          </div>
+           <br><br>
+
         </div>
-      </div>
+      </section>
+     </div>
 
-    </div>
-  </section>
 
-  <!-- end info section -->
 
-  <!-- footer section -->
-  <footer class="container-fluid footer_section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-7 col-md-9 mx-auto">
-          <p>
-            &copy; 2024 lekha ayurveda,
-            Designed by <b> <a href="https://www.acmeflare.in/">Acmeflare</a></b>
-          </p>
+
+        <!-- <div class="row justify-content-center bg-appointment mx-0">
+            <div class="col-lg-6 py-5">
+                <div class="p-5 my-5" style="background: rgba(33, 30, 28, 0.7);">
+                    <h1 class="text-white text-center mb-4">Make Appointment</h1>
+                    <form>
+                        <div class="form-row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control bg-transparent p-4" placeholder="Your Name" required="required" />
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input type="email" class="form-control bg-transparent p-4" placeholder="Your Email" required="required" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <div class="date" id="date" data-target-input="nearest">
+                                        <input type="text" class="form-control bg-transparent p-4 datetimepicker-input" placeholder="Select Date" data-target="#date" data-toggle="datetimepicker"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <div class="time" id="time" data-target-input="nearest">
+                                        <input type="text" class="form-control bg-transparent p-4 datetimepicker-input" placeholder="Select Time" data-target="#time" data-toggle="datetimepicker"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <select class="custom-select bg-transparent px-4" style="height: 47px;">
+                                        <option selected>Select A Service</option>
+                                        <option value="1">Service 1</option>
+                                        <option value="2">Service 1</option>
+                                        <option value="3">Service 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <button class="btn btn-primary btn-block" type="submit" style="height: 47px;">Make Appointment</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div> -->
+    
+    <!-- Service End -->
+
+
+    <!-- Testimonial Start -->
+    <!-- <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 pb-5 pb-lg-0">
+                    <img class="img-fluid w-100" src="img/testimonial.jpg" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2">Testimonial</h6>
+                    <h1 class="mb-4">What Our Clients Say!</h1>
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="position-relative">
+                            <i class="fa fa-3x fa-quote-right text-primary position-absolute" style="top: -6px; right: 0;"></i>
+                            <div class="d-flex align-items-center mb-3">
+                                <img class="img-fluid rounded-circle" src="img/testimonial-1.jpg" style="width: 60px; height: 60px;" alt="">
+                                <div class="ml-3">
+                                    <h6 class="text-uppercase">Client Name</h6>
+                                    <span>Profession</span>
+                                </div>
+                            </div>
+                            <p class="m-0">Aliquyam sed elitr elitr erat sed diam ipsum eirmod eos lorem nonumy. Tempor sea ipsum diam  sed clita dolore eos dolores magna erat dolore sed stet justo et dolor.</p>
+                        </div>
+                        <div class="position-relative">
+                            <i class="fa fa-3x fa-quote-right text-primary position-absolute" style="top: -6px; right: 0;"></i>
+                            <div class="d-flex align-items-center mb-3">
+                                <img class="img-fluid rounded-circle" src="img/testimonial-2.jpg" style="width: 60px; height: 60px;" alt="">
+                                <div class="ml-3">
+                                    <h6 class="text-uppercase">Client Name</h6>
+                                    <span>Profession</span>
+                                </div>
+                            </div>
+                            <p class="m-0">Aliquyam sed elitr elitr erat sed diam ipsum eirmod eos lorem nonumy. Tempor sea ipsum diam  sed clita dolore eos dolores magna erat dolore sed stet justo et dolor.</p>
+                        </div>
+                        <div class="position-relative">
+                            <i class="fa fa-3x fa-quote-right text-primary position-absolute" style="top: -6px; right: 0;"></i>
+                            <div class="d-flex align-items-center mb-3">
+                                <img class="img-fluid rounded-circle" src="img/testimonial-3.jpg" style="width: 60px; height: 60px;" alt="">
+                                <div class="ml-3">
+                                    <h6 class="text-uppercase">Client Name</h6>
+                                    <span>Profession</span>
+                                </div>
+                            </div>
+                            <p class="m-0">Aliquyam sed elitr elitr erat sed diam ipsum eirmod eos lorem nonumy. Tempor sea ipsum diam  sed clita dolore eos dolores magna erat dolore sed stet justo et dolor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+    </div> -->
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div class="footer container-fluid position-relative bg-dark py-5" style="margin-top: 90px;">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-lg-6 pr-lg-5 mb-5">
+                    <a href="index.html" class="navbar-brand">
+                        <h1 class="mb-3 text-white">Lekha Ayurveda</h1>
+                    </a>
+                   <a href="https://maps.app.goo.gl/8CRDuPq95Emp5eVd9"> <p><i class="fa fa-map-marker-alt mr-2"></i>Lekha Ayurveda</p></a>
+                    <p><i class="fa fa-phone-alt mr-2"></i>8714545498</p>
+                   <a href="mailto:lekhaayurveda@gmail.com"> <p><i class="fa fa-envelope mr-2"></i>lekhaayurveda@gmail.com</p></a>
+                    <div class="d-flex justify-content-start mt-4">
+               
+                        <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="https://www.facebook.com/profile.php?id=100087983348540&sk=about" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                     
+                        <a class="btn btn-lg btn-primary btn-lg-square" href="https://www.instagram.com/lekhaayurveda/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 pl-lg-5">
+                    <div class="row">
+                        <div class="col-sm-6 mb-5">
+                            <h5 class="text-white text-uppercase mb-4">Quick Links</h5>
+                            <div class="d-flex flex-column justify-content-start">
+                                <a class="text-white-50 mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                                <a class="text-white-50 mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>About Us</a>
+                                <a class="text-white-50 mb-2" href="service.html"><i class="fa fa-angle-right mr-2"></i>Our Services</a>
+
+                                <a class="text-white-50" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                            </div>
+                        </div>
+                  
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </footer>
-  <!-- footer section -->
+    <div class="container-fluid bg-dark text-light border-top py-4" style="border-color: rgba(256, 256, 256, .15) !important;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+                    <p class="m-0 text-white">&copy; <a href="#">Lekha Ayurveda</a>. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-right">
+                    <p class="m-0 text-white">Designed by <a href="https://www.acmeflare.in/">Acmeflare</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
 
 
-  <script src="js/jquery-3.4.1.min.js"></script>
-  <script src="js/bootstrap.js"></script>
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
 
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
