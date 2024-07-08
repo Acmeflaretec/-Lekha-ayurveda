@@ -20,7 +20,7 @@
   --gray: #6c757d;
   --gray-dark: #343a40;
   --primary: #F9A392;
-  --secondary: #6EBBF6;
+  --secondary: #ecf7ff;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
@@ -1629,7 +1629,7 @@ pre code {
 }
 
 .table-hover .table-secondary:hover {
-  background-color: #bee1fa;
+  background-color: #f7fcff;
 }
 
 .table-hover .table-secondary:hover > td,
@@ -2409,19 +2409,19 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
   color: #212529;
-  background-color: #6EBBF6;
+  background-color: #ecf7ff;
   border-color: #6EBBF6;
 }
 
 .btn-secondary:hover {
   color: #fff;
-  background-color: #4aaaf4;
+  background-color: #ffffff;
   border-color: #3ea4f3;
 }
 
 .btn-secondary:focus, .btn-secondary.focus {
   color: #fff;
-  background-color: #4aaaf4;
+  background-color: #ffffff;
   border-color: #3ea4f3;
   box-shadow: 0 0 0 0.2rem rgba(98, 165, 215, 0.5);
 }
@@ -2435,7 +2435,7 @@ fieldset:disabled a.btn {
 .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active,
 .show > .btn-secondary.dropdown-toggle {
   color: #fff;
-  background-color: #3ea4f3;
+  background-color: #ffffff;
   border-color: #329ff2;
 }
 
@@ -2699,14 +2699,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-secondary {
-  color: #6EBBF6;
-  border-color: #6EBBF6;
+  color: #dfffd1;
+  border-color: #d8ffd1;
 }
 
 .btn-outline-secondary:hover {
   color: #212529;
-  background-color: #6EBBF6;
-  border-color: #6EBBF6;
+  background-color: #bbffbf;
+  border-color: #e0ffe5;
 }
 
 .btn-outline-secondary:focus, .btn-outline-secondary.focus {
@@ -9719,3 +9719,27 @@ h6,
 }
 
 
+.whatsapp-float {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 40px; /* Adjust as needed */
+  right: 40px; /* Adjust as needed */
+  background-color: #25d366; /* WhatsApp Green */
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 24px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 1000; /* Ensure it's above other elements */
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  background-color: #128C7E; /* Darker WhatsApp Green on hover */
+}
+
+/* WhatsApp icon inside the button */
+.my-float {
+  margin-top: 18px; /* Adjust vertical position of the icon */
+}
