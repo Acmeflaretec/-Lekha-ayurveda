@@ -9648,9 +9648,7 @@ h6,
   transition: .5s;
 }
 
-.team:hover .team-text {
-  top: 100px;
-}
+
 
 .team .team-social {
   position: absolute;
