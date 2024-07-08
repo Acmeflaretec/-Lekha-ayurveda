@@ -533,6 +533,10 @@ mark,
   max-width: 100%;
   height: inherit;
 }
+.img-about{
+  width: 60px;
+  height: 60px;
+}
 
 
 
