@@ -9745,3 +9745,7 @@ h6,
 .my-float {
   margin-top: 18px; /* Adjust vertical position of the icon */
 }
+.btn:disabled {
+  background-color: darkolivegreen; 
+  cursor: not-allowed;
+}
