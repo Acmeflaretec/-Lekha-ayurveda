@@ -350,33 +350,32 @@
                         <h6 class="d-inline-block text-white text-uppercase bg-primary py-1 px-2">Contact</h6>
                         <h1 class="mb-4">Contact For Any Query</h1>
                         <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                        <form method="post" name="contact-form" id="contactForm" novalidate="novalidate" action="">
                             <div class="form-row">
                                 <div class="col-sm-6 control-group">
-                                    <input type="text" class="form-control border-0 p-4" id="name" placeholder="Your Name"
+                                    <input type="text" name="your-name" class="form-control border-0 p-4" id="name" placeholder="Your Name"
                                         required="required" data-validation-required-message="Please enter your name" />
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="col-sm-6 control-group">
-                                    <input type="tel" class="form-control border-0 p-4" id="phone" placeholder="Your Phone Number"
+                                    <input type="tel" name="Phone number" class="form-control border-0 p-4" id="phone" placeholder="Your Phone Number"
                                         required="required" data-validation-required-message="Please enter your phone number" />
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="control-group">
-                                <input type="text" class="form-control border-0 p-4" id="subject" placeholder="Subject"
+                                <input type="text" name="Subject" class="form-control border-0 p-4" id="subject" placeholder="Subject"
                                     required="required" data-validation-required-message="Please enter a subject" />
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="control-group">
-                                <textarea class="form-control border-0 py-3 px-4" rows="3" id="message" placeholder="Message"
+                                <textarea class="form-control border-0 py-3 px-4" name="Message" rows="3" id="message" placeholder="Message"
                                     required="required"
                                     data-validation-required-message="Please enter your message"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div>
-                                <button class="btn btn-primary py-3 px-4" type="submit" id="sendMessageButton">Send
-                                    Message</button>
+                                <button class="btn btn-primary py-3 px-4"type="submit" value="Submit" id="submit">Send Message</button>
                             </div>
                         </form>
                     </div>
@@ -456,7 +455,7 @@
 
     <!-- Contact Javascript File -->
     <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
+    <script src="js/form.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
