@@ -5,8 +5,17 @@
     <meta charset="utf-8">
     <title>Lekha Ayurveda</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free HTML Templates" name="keywords">
-    <meta content="Free HTML Templates" name="description">
+    <meta name="description" content="Explore Lekha Ayurveda where ancient Ayurvedic wisdom meets contemporary wellness. Discover our Ayurvedic therapies, consultations, and wellness programs designed for holistic healing and personalized care.">
+    <meta name="keywords" content="Ayurveda, Ayurvedic therapies, holistic healing, personalized care, wellness programs, herbal medicine, Kerala, Ayurvedic consultations, Kerala Ayurveda hospital , thiruvananthapuram Ayurveda hospital">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Lekha Ayurveda">
+    
+   
+    <meta property="og:title" content="Welcome to Lekha Ayurveda - Holistic Healing & Personalized Care">
+    <meta property="og:description" content="Explore Lekha Ayurveda where ancient Ayurvedic wisdom meets contemporary wellness. Discover our Ayurvedic therapies, consultations, and wellness programs designed for holistic healing and personalized care.">
+    <meta property="og:image" content="URL-to-image.jpg">
+    <meta property="og:url" content="https://www.lekhaayurveda.com">
+    <meta property="og:type" content="website">
 
     <!-- Favicon -->
     <link href="img/logo.png" rel="icon">
@@ -359,8 +368,9 @@
                                 </div>
                                 <div class="col-sm-6 control-group">
                                     <input type="tel" name="Phone number" class="form-control border-0 p-4" id="phone" placeholder="Your Phone Number"
-                                        required="required" data-validation-required-message="Please enter your phone number" />
-                                    <p class="help-block text-danger"></p>
+                                        required="required" data-validation-required-message="Please enter your phone number"
+                                        pattern="\d{10,}" title="Please enter at least 10 digits." />
+                                    <p class="help-block text-danger" id="phoneError"></p>
                                 </div>
                             </div>
                             <div class="control-group">

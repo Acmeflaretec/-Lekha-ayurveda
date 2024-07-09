@@ -124,8 +124,9 @@
                                 </div>
                                 <div class="col-sm-6 control-group">
                                     <input type="tel" name="Phone number" class="form-control border-0 p-4" id="phone" placeholder="Your Phone Number"
-                                        required="required" data-validation-required-message="Please enter your phone number" />
-                                    <p class="help-block text-danger"></p>
+                                        required="required" data-validation-required-message="Please enter your phone number"
+                                        pattern="\d{10,}" title="Please enter at least 10 digits." />
+                                    <p class="help-block text-danger" id="phoneError"></p>
                                 </div>
                             </div>
                             <div class="control-group">

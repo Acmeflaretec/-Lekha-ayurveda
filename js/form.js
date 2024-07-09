@@ -9,3 +9,15 @@ form.addEventListener('submit', e => {
   .then(() => { window.location.reload(); })
   .catch(error => console.error('Error!', error.message))
 })
+
+document.getElementById('phone').addEventListener('input', function () {
+  var phone = this.value;
+  var phoneError = document.getElementById('phoneError');
+  var pattern = /^\d{10,}$/;
+
+  if (!pattern.test(phone)) {
+      phoneError.textContent = "Please enter at least 10 digits.";
+  } else {
+      phoneError.textContent = "";
+  }
+});
